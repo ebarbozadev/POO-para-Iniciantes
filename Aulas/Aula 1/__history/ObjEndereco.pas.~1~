@@ -1,0 +1,15 @@
+unit ObjEndereco;
+
+interface
+
+type
+  TEndereco = class
+    private
+      CEP: String;
+    public
+      Rua: String;
+  end;
+
+implementation
+
+end.

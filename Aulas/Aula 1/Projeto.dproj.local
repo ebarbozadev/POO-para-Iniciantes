@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/23 10:06:39.386,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 10:06:51.577,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\UnitFrmPrincipal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/23 10:06:51.577,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\UnitFrmPrincipal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 10:07:04.970,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 10:08:40.644,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\ObjPessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 10:10:42.010,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Projeto.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/06/23 10:14:05.971,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 10:15:14.264,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\ObjEndereco.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 11:05:16.272,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 11:21:15.436,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\ObjCarro.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 11:21:58.740,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+    <Transaction>2023/06/23 11:23:21.082,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\ObjContaBancaria.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aula 1\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

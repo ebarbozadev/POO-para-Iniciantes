@@ -1,0 +1,14 @@
+unit ObjEndereco;
+
+interface
+
+type
+  TEndereco = class
+    private
+    public
+      Rua: String;
+  end;
+
+implementation
+
+end.
