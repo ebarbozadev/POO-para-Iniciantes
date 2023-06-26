@@ -1,0 +1,20 @@
+unit Dados;
+
+interface
+  TDados = class
+    private
+      FNome: String;
+      FNumeroCasa: String;
+      FSaldo: Double;
+    public
+      property Nome: String read FNome write FNome;
+      property NumeroCasa: String read FNumeroCasa write FNumeroCasa;
+      property Saldo: Double read FSaldo;
+
+      procedure Depositar(Valor: Double);
+      procedure Sacar(Valor: Double);
+  end;
+
+implementation
+
+end.

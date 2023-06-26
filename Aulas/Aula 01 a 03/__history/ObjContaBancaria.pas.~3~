@@ -1,0 +1,18 @@
+unit ObjContaBancaria;
+
+interface
+
+type
+  TContaBancaria = class
+  private
+    FNome: String;
+    FSaldo: Double;
+  public
+    property Nome: String read FNome write FNome;
+    property Saldo: Double read GetSaldo;
+    procedure Depositar(Valor: Double);
+  end;
+
+implementation
+
+end.

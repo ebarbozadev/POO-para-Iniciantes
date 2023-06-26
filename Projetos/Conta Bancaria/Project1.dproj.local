@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/26 11:12:47.000.498,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 11:13:25.000.006,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/26 11:13:35.000.610,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Conta Bancaria\ContaBancaria.pas</Transaction>
+    <Transaction>2023/06/26 11:26:23.000.921,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Conta Bancaria\UnitContaBancaria.pas</Transaction>
+    <Transaction>2023/06/26 11:26:23.000.921,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Conta Bancaria\UnitContaBancaria.dfm</Transaction>
+    <Transaction>2023/06/26 12:55:32.000.323,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Conta Bancaria\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

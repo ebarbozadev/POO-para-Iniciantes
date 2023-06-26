@@ -1,0 +1,43 @@
+unit ContaBancaria;
+
+interface
+
+type
+  TContaBancaria = class
+    private
+    // Variáveis privadas
+    FNumeroContaBancaria: String;
+    FSenha: String;
+    FNomeCompleto: String;
+    FRG: String;
+    FCPF: String;
+    FSaldo: Double;
+
+    // Funções para ver os privados
+    function GetSaldo: Double;
+    public
+    // Variáveis públicas
+    FNomeBanco: String;
+    FNumeroAgencia: String;
+    FNumeroContaDepositos: String;
+    FNumeroContaTransferencias: String;
+    FCodigoDoBanco: String;
+
+    // Property's
+    property NomeBanco: String read FNomeBanco write FNomeBanco;
+    property NumeroAgencia: String read FNumeroAgencia write FNumeroAgencia;
+    property NumeroContaDepositos: String read FNumeroContaDepositos write FNumeroContaDepositos;
+    property NumeroContaTransferencias: String read FNumeroContaTransferencias write FNumeroContaTransferencias;
+    property CodigoDoBanco: String read FCodigoDoBanco write FCodigoDoBanco;
+
+    // Property's para privados
+    property Saldo: Double read GetSaldo;
+
+    // Procedures
+    procedure Depositar(Valor: Double);
+    procedure Sacar(Valor: Double);
+  end;
+
+implementation
+
+end.

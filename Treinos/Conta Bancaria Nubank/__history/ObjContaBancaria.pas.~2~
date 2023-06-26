@@ -1,0 +1,37 @@
+unit ObjContaBancaria;
+
+interface
+
+type
+  ContaBancaria = class
+    private
+      FNome     : String;
+      FSaldo    : Double;
+    function GetSaldo: Double;
+    public
+      property Nome: String read FNome write FNome;
+      property Saldo: Double read GetSaldo;
+      procedure Depositar(Valor: Double);
+      procedure Sacar(Valor: Double);
+  end;
+
+implementation
+
+{ ContaBancaria }
+
+procedure ContaBancaria.Depositar(Valor: Double);
+begin
+  FSaldo:= FSaldo + Valor + (Valor * 0.10);
+end;
+
+function ContaBancaria.GetSaldo: Double;
+begin
+  Result:= FSaldo;
+end;
+
+procedure ContaBancaria.Sacar(Valor: Double);
+begin
+  FSaldo:= FSaldo - Valor;
+end;
+
+end.
