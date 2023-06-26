@@ -1,0 +1,14 @@
+unit pessoa;
+
+interface
+
+type
+  TPessoa = class
+    nome           : String;
+    dataNascimento : String;
+    function idade : Integer;
+  end;
+
+implementation
+
+end.

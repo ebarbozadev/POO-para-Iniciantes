@@ -1,0 +1,17 @@
+unit uteis;
+
+interface
+
+type
+  TUteis = class
+    private
+    public
+      function somar(valor1, valor2 : double) : double;
+      function subtrair(valor1, valor2 : double) : double;
+      function multiplicar(valor1, valor2 : double) : double;
+      function dividir(valor1, valor2 : double) : double;
+  end;
+
+implementation
+
+end.

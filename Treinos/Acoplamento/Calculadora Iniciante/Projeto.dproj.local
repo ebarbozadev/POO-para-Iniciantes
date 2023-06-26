@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/26 14:09:28.000.635,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 14:10:20.000.878,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Acoplamento\Calculadora\Unit1.dfm</Transaction>
+    <Transaction>2023/06/26 14:10:20.000.878,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Acoplamento\Calculadora\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 14:11:00.000.746,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/26 14:11:08.000.579,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Acoplamento\Calculadora\calculadora.pas</Transaction>
+    <Transaction>2023/06/26 14:11:16.000.930,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/26 14:11:19.000.750,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Acoplamento\Calculadora\utils.pas</Transaction>
+    <Transaction>2023/06/26 14:19:57.000.362,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Acoplamento\Calculadora\Projeto.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

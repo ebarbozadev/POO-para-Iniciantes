@@ -1,0 +1,17 @@
+unit calculadora;
+
+interface
+
+uses
+  utils;
+
+type
+  TCalculadora = class
+    private
+    public
+      somar: TUtils;
+  end;
+
+implementation
+
+end.

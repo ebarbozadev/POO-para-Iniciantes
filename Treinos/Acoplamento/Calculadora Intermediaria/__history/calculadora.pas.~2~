@@ -1,0 +1,17 @@
+unit calculadora;
+
+interface
+
+uses
+  uteis;
+
+type
+  TCalculadora = class
+    private
+    public
+      funcoes: TUteis;
+  end;
+
+implementation
+
+end.

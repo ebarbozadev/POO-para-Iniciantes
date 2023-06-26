@@ -1,0 +1,26 @@
+unit calculadora;
+
+interface
+
+uses
+  utils;
+
+type
+  TCalculadora = class
+    private
+    public
+      somar     : TUtils;
+      subtrair  : TUtils;
+
+      constructor Create;
+  end;
+
+implementation
+
+constructor TCalculadora.Create;
+begin
+  somar:= TUtils.Create;
+  subtrair:= TUtils.Create;
+end;
+
+end.

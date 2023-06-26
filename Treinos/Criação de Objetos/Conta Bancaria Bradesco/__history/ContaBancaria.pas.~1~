@@ -1,0 +1,18 @@
+unit ContaBancaria;
+
+interface
+
+type
+  TContaBancaria = class
+    private
+      FNome: String;
+      Saldo: Double;
+      function VerSaldo: Double;
+    public
+      property FNome: String read FNome write FNome;
+
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,19 @@
+unit Acoplamento;
+
+interface
+
+type
+  TFuncoesData = class
+    function CalcularIdade(Value: String) : Integer;
+  end;
+
+implementation
+
+{ TFuncoesData }
+
+function TFuncoesData.CalcularIdade(Value: String): Integer;
+begin
+
+end;
+
+end.

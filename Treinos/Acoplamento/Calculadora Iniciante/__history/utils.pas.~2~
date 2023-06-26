@@ -1,0 +1,15 @@
+unit utils;
+
+interface
+
+type
+  TUtils = class
+    private
+    public
+      function subtrair(Valor: currency) : currency;
+      function somar(Valor: currency) : currency;
+  end;
+
+implementation
+
+end.

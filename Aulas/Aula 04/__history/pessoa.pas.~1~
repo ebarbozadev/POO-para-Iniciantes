@@ -1,0 +1,19 @@
+unit pessoa;
+
+interface
+
+uses
+  utils;
+
+type
+  TPessoa = class
+    private
+    public
+      Nome           : String;
+      DataNascimento : String;
+      Idade          : TUtils;
+  end;
+
+implementation
+
+end.
