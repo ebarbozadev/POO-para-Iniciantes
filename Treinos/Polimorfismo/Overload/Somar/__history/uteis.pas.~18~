@@ -1,0 +1,24 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+      ValorCredito: Currency;
+    public
+      property ValorCredito: Currency read FValorCredito;
+      function Receber(Valor  : Integer)    : String  ; overload;
+      function Receber(Valor  : Currency)   : String  ; overload;
+  end;
+
+implementation
+
+{ TUteis }
+
+{ TUteis }
+
+end.

@@ -1,0 +1,18 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+    FMostrar: Currency;
+    public
+      property Mostrar: Currency read FMostrar;
+  end;
+
+implementation
+
+end.

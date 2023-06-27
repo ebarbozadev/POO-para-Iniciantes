@@ -1,0 +1,21 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+    FMostrar: Currency;
+    public
+      property Mostrar: Currency read FMostrar;
+
+      function mostrarNumero  (Valor: Integer)   :  String;  overload;
+      function mostrarNumero  (Valor: Currency)  :  String;  overload;
+  end;
+
+implementation
+
+end.

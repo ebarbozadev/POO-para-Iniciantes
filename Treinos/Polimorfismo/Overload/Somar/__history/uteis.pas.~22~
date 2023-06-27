@@ -1,0 +1,34 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+    FSaldo: Currency;
+    public
+      property Saldo: Currency read FSaldo write FSaldo;
+
+      function Sacar(Valor  : Integer)    : String  ; overload;
+      function Sacar(Valor  : Currency)   : String  ; overload;
+  end;
+
+implementation
+
+{ TUteis }
+
+function TUteis.Sacar(Valor: Integer): String;
+begin
+  FSaldo:= FSaldo - Valor;
+  Result:= FSaldo.ToString;
+end;
+
+function TUteis.Sacar(Valor: Currency): String;
+begin
+  FSaldo:= FSaldo - Valor;
+  Result:= FSaldo.ToString;
+end;
+end.

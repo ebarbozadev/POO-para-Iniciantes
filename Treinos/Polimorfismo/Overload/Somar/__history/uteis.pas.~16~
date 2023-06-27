@@ -1,0 +1,34 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+      ValorCredito: Curremcy;
+    public
+      property ValorCredito: Currency read FValorCredito;
+      function Receber(Valor  : Integer)    : String  ; overload;
+      function Receber(Valor  : Currency)   : String  ; overload;
+  end;
+
+implementation
+
+{ TUteis }
+
+{ TUteis }
+
+function TUteis.somar(Valor: Currency): String;
+begin
+  FSoma:=
+end;
+
+function TUteis.somar(Valor: Integer): String;
+begin
+
+end;
+
+end.

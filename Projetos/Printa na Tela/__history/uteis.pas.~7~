@@ -1,0 +1,35 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+    FSoma: Currency;
+    public
+      property Soma: Currency read FSoma;
+      // Adição
+      function somar(valor1, valor2 : Integer) : String; overload;
+      function somar(valor1, valor2 : Currency) : String; overload;
+  end;
+
+implementation
+
+{ TUteis }
+
+function TUteis.somar(valor1, valor2: Integer): String;
+begin
+  FSoma:= valor1 + valor2;
+  Result:= FSoma.ToString;
+end;
+
+function TUteis.somar(valor1, valor2: Currency): String;
+begin
+  FSoma:= valor1 + valor2;
+  Result:= FSoma.ToString;
+end;
+
+end.

@@ -1,0 +1,21 @@
+unit uteis;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TUteis = class
+    private
+    FSacar: Currency;
+    public
+      property Sacar        : Currency read FSacar;
+      function Sacar(Valor  : Integer)    : String  ; overload;
+      function Sacar(Valor  : Currency)   : String  ; overload;
+  end;
+
+implementation
+
+
+end.
