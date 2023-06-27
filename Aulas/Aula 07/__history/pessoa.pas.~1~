@@ -1,0 +1,27 @@
+unit pessoa;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TPessoa = class
+    private
+    FNome: String;
+    FDataNascimento: String;
+    procedure SetIdade(const Value: Integer);
+    public
+      property Nome: String read FNome write FNome;
+      property DataNascimento: String read FDataNascimento write FDataNascimento;
+      property Idade: Integer read FIdade write SetIdade;
+  end;
+
+implementation
+
+
+
+{ TPessoa }
+
+
+end.
