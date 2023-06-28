@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/28 09:02:59.000.991,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 11:31:15.000.311,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 13:01:46.000.391,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmPrincipal.pas</Transaction>
+    <Transaction>2023/06/28 13:01:46.000.391,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmPrincipal.dfm</Transaction>
+    <Transaction>2023/06/28 13:13:39.000.010,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 13:14:26.000.090,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmSecundario.pas</Transaction>
+    <Transaction>2023/06/28 13:14:26.000.090,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmSecundario.dfm</Transaction>
+    <Transaction>2023/06/28 13:18:23.000.988,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Project1.dproj</Transaction>
+    <Transaction>2023/06/28 13:22:11.000.907,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmSecundario.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmPeriodo.dfm</Transaction>
+    <Transaction>2023/06/28 13:22:11.000.907,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmSecundario.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmPeriodo.pas</Transaction>
+    <Transaction>2023/06/28 13:25:46.000.476,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 13:25:56.000.718,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Forma.pas</Transaction>
+    <Transaction>2023/06/28 13:32:18.000.942,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 13:32:22.000.058,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Circulo.pas</Transaction>
+    <Transaction>2023/06/28 13:45:51.000.701,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit3.pas</Transaction>
+    <Transaction>2023/06/28 13:47:00.000.064,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit3.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmTriangulo.dfm</Transaction>
+    <Transaction>2023/06/28 13:47:00.000.064,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit3.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmTriangulo.pas</Transaction>
+    <Transaction>2023/06/28 13:57:56.000.236,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmPeriodo.pas=</Transaction>
+    <Transaction>2023/06/28 14:15:05.000.421,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmTriangulo.pas=</Transaction>
+    <Transaction>2023/06/28 14:15:16.000.853,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 14:15:53.000.896,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmTriangulo.pas</Transaction>
+    <Transaction>2023/06/28 14:15:53.000.896,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\Unit2.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\FGeometricas\frmTriangulo.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

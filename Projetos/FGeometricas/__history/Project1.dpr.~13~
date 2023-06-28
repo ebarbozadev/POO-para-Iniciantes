@@ -1,0 +1,25 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  frmPrincipal in 'frmPrincipal.pas' {Form1},
+  frmPeriodo in 'frmPeriodo.pas' {Form2},
+  Forma in 'Forma.pas',
+  Triangulo in 'Triangulo.pas',
+  frmTriangulo in 'frmTriangulo.pas' {Form3};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Frm1Application.Run);
+  // Application.CreateForm(TForm1, Frm1Application.Run;
+end.
+
+Application.CreateForm(TF, F);
+
+Application.CreateForm(TF, F);
+
+Application.CreateForm(TF, F);
+Application.CreateForm(TForm3, Form3);Application.CreateForm(TF, F);

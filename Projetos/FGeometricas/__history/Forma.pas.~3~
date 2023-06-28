@@ -1,0 +1,14 @@
+unit Forma;
+
+interface
+
+type
+  TForma = class
+    private
+    public
+      function calcularArea : String; virtual; abstract;
+  end;
+
+implementation
+
+end.

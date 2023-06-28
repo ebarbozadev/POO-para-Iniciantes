@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/28 09:02:59.000.991,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 09:38:58.000.155,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 09:39:08.000.614,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 09:39:19.000.698,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Polimorfismo\Abstract\pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 09:39:32.000.625,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 09:39:34.000.833,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Polimorfismo\Abstract\cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/28 09:45:54.000.452,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Polimorfismo\Abstract\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/28 09:45:54.000.452,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Polimorfismo\Abstract\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/28 09:45:57.000.963,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Polimorfismo\Abstract\Projeto.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

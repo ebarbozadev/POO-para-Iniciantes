@@ -1,0 +1,62 @@
+unit contabancaria;
+
+interface
+
+uses
+  System.SysUtils, pessoa;
+
+type
+  TContaBancaria = class(TPessoa)
+    private
+    FBanco             : String;
+    FSaldo             : Currency;
+    function GetSaldo  : String;
+    public
+      property Banco   :                      String    read FBanco write FBanco;
+      property Saldo   :                      String    read GetSaldo;
+
+      function Sacar(Valor: Currency)       : String;   overload;
+      function Sacar(Valor: Integer)        : String;   overload;
+      function Depositar(Valor: Currency)   : String;   overload;
+      function Depositar(Valor: Integer)    : String;   overload;
+
+      function RetornaDados                 : String;   override;
+  end;
+
+implementation
+
+function TContaBancaria.Depositar(Valor: Currency): String;
+begin
+  FSaldo:= FSaldo + Valor;
+  Result:= Saldo;
+end;
+
+function TContaBancaria.RetornaDados: String;
+begin
+  Result:= Dados + ' Banco: ' + FBanco + ' Saldo: ' + GetSaldo;
+end;
+
+function TContaBancaria.Depositar(Valor: Integer) : String;
+begin
+  FSaldo:= FSaldo + Valor;
+  Result:= Saldo;
+end;
+
+function TContaBancaria.GetSaldo: String;
+begin
+  Result:= FSaldo.ToString;
+end;
+
+function TContaBancaria.Sacar(Valor: Currency)   : String;
+begin
+  FSaldo:= FSaldo - Valor;
+  Result:= Saldo;
+end;
+
+function TContaBancaria.Sacar(Valor: Integer)    : String;
+begin
+  FSaldo:= FSaldo - Valor;
+  Result:= Saldo;
+end;
+
+end.

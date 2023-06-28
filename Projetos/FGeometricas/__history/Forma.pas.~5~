@@ -1,0 +1,17 @@
+unit Forma;
+
+interface
+
+type
+  TForma = class
+    private
+    FCalculo: Integer;
+    public
+      property Calculo: Integer read FCalculo write FCalculo;
+
+      function calcularArea(a, b : Integer) : String; virtual; abstract;
+  end;
+
+implementation
+
+end.

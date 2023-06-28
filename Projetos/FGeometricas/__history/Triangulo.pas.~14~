@@ -1,0 +1,33 @@
+unit Triangulo;
+
+interface
+
+uses System.SysUtils, Forma;
+
+type
+  TTriangulo = class(TForma)
+    private
+    public
+
+      function calcularArea(a, b : Integer) : String; override;
+      function mostraDados: String; override;
+  end;
+
+implementation
+
+{ TTriangulo }
+
+function TTriangulo.calcularArea(a, b: Integer): String;
+begin
+  inherited
+  Calculo:= (a * b) div 2;
+  Result:= Calculo.ToString;
+end;
+
+function TTriangulo.mostraDados: String;
+begin
+  inherited
+  Result:= Medida + 'Triângulo';
+end;
+
+end.

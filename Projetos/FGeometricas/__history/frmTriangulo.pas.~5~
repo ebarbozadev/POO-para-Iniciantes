@@ -1,0 +1,24 @@
+unit frmTriangulo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  TperTriangulo = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  perTriangulo: TperTriangulo;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,29 @@
+unit pessoa;
+
+interface
+
+uses
+  System.SysUtils, contabancaria, empresa;
+
+type
+  TPessoa = class(TContaBancaria)
+    private
+    FNome              : String;
+    FDataDeNascimento  : String;
+    FCPF               : String;
+    public
+      property Nome              : String   read FNome               write FNome;
+      property DataDeNascimento  : String   read FDataDeNascimento   write FDataDeNascimento;
+      property CPF               : String   read FCPF                write FCPF;
+
+      function Idade             : String;
+  end;
+
+implementation
+
+function TPessoa.Idade: String;
+begin
+  Result:= Trunc((now - StrToDate(DataDeNascimento)) / 365.25).ToString;
+end;
+
+end.

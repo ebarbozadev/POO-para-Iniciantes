@@ -1,0 +1,28 @@
+unit Forma;
+
+interface
+
+type
+  TForma = class
+    private
+    FCalculo: Integer;
+    FMedida: String;
+    public
+      property calculo: Integer read Fcalculo write Fcalculo;
+      property Medida: String read FMedida write FMedida;
+
+      function calcularArea(a, b : Integer) : String; virtual; abstract;
+      function mostraDados: String; virtual;
+  end;
+
+implementation
+
+{ TForma }
+
+function TForma.mostraDados: String;
+begin
+  Medida:= ' Emanuel';
+  Result:= Medida;
+end;
+
+end.

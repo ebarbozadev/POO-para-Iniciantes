@@ -1,0 +1,40 @@
+unit pessoa;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TPessoa = class
+    private
+    FNome              : String;
+    FDataDeNascimento  : String;
+    FCPF               : String;
+    FDados: String;
+    public
+      property Nome              : String   read FNome               write FNome;
+      property DataDeNascimento  : String   read FDataDeNascimento   write FDataDeNascimento;
+      property CPF               : String   read FCPF                write FCPF;
+      property Dados             : String   read FDados              write FDados;
+
+      function Idade             : String;
+      function Dados             : String; virtual;
+  end;
+
+implementation
+
+function TPessoa.Dados: String;
+begin
+  Dados:= 'Nome: '                + FNome             +
+          ' Data De Nascimento: ' + FDataDeNascimento +
+          ' Idade: '              + Self.Idade        +
+          ' CPF: '                + FCPF;
+end;
+
+function TPessoa.Idade: String;
+begin
+  Result:= Trunc((now - StrToDate(DataDeNascimento)) / 365.25).ToString;
+end;
+
+end.

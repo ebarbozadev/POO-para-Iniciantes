@@ -1,0 +1,38 @@
+unit pessoa;
+
+interface
+
+uses
+  System.SysUtils, contabancaria;
+
+type
+  TPessoa = class(TContaBancaria)
+    private
+    FNome              : String;
+    FDataDeNascimento  : String;
+    FCPF               : String;
+    public
+      property Nome              : String   read FNome               write FNome;
+      property DataDeNascimento  : String   read FDataDeNascimento   write FDataDeNascimento;
+      property CPF               : String   read FCPF                write FCPF;
+
+      function Idade             : String;
+      function Dados             : String; virtual;
+  end;
+
+implementation
+
+function TPessoa.Dados: String;
+begin
+  Dados:= 'Nome: '                + FNome             +
+          ' Data De Nascimento: ' + FDataDeNascimento +
+          ' Idade: '              + Self.Idade        +
+          ' CPF: '                + FCPF;
+end;
+
+function TPessoa.Idade: String;
+begin
+  Result:= Trunc((now - StrToDate(DataDeNascimento)) / 365.25).ToString;
+end;
+
+end.
