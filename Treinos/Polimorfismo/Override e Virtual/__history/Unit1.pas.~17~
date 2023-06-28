@@ -1,0 +1,58 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, pessoa, cliente;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Memo1: TMemo;
+    Memo2: TMemo;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+  pessoa1   : TPessoa;
+  cliente1  : TCliente;
+begin
+  pessoa1   := TPessoa.Create;
+  cliente1  := TCliente.Create;
+
+  Memo1.Clear;
+  Memo2.Clear;
+  try
+    pessoa1.Nome              := 'Emanuel';
+    pessoa1.DataDeNascimento  := '18/04/2003';
+    Memo1.Lines.Add           (pessoa1.Nome);
+    Memo1.Lines.Add           (pessoa1.DataDeNascimento);
+    Memo1.Lines.Add           (pessoa1.Idade.ToString);
+
+    cliente1.Nome             := 'Emanuel';
+    cliente1.DataDeNascimento := '18/04/2003';
+    cliente1.CPF              := '123.456.789-10';
+    Memo2.Lines.Add           (cliente1.Nome);
+    Memo2.Lines.Add           (cliente1.DataDeNascimento);
+    Memo2.Lines.Add           (cliente1.Idade.ToString);
+    Memo2.Lines.Add           (cliente1.CPF);
+  finally
+    pessoa1.Free;
+    cliente1.Free;
+  end;
+end;
+
+end.

@@ -34,7 +34,7 @@ begin
   cliente:= TCliente.Create;
   try
     pessoa.Nome:= 'Emanuel';
-    pessoa.DataNascimento:= '21/12/1959';
+    pessoa.DataNascimento:= '18/04/2003';
 
     cliente.Nome:= 'Thay';
     cliente.CPF:= '123456789-10';

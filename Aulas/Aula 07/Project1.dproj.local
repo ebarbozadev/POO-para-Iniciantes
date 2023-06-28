@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/06/27 14:01:46.768,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/27 14:02:33.561,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/27 14:02:33.561,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/06/27 14:03:19.823,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/06/27 14:06:31.787,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/06/27 14:08:08.996,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/06/27 14:08:58.343,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/06/27 14:16:16.961,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/06/27 14:01:46.000.768,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/27 14:02:33.000.561,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Unit1.dfm</Transaction>
+    <Transaction>2023/06/27 14:02:33.000.561,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Unit1.pas</Transaction>
+    <Transaction>2023/06/27 14:03:19.000.823,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/27 14:06:31.000.787,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\pessoa.pas</Transaction>
+    <Transaction>2023/06/27 14:08:08.000.996,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/27 14:08:58.000.343,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\cliente.pas</Transaction>
+    <Transaction>2023/06/27 14:16:16.000.961,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 07\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>
