@@ -1,0 +1,28 @@
+unit contabancaria_overload_override_inherit;
+
+interface
+
+uses
+  pessoa_abstract, System.SysUtils;
+
+type
+  TContaBancaria = class(TPessoa)
+    private
+    FSaldo             : Currency;
+
+    function GetSaldo: Currency;
+    public
+      property Saldo     : Currency read GetSaldo;
+
+  end;
+
+implementation
+
+{ TContaBancaria }
+
+function TContaBancaria.GetSaldo: Currency;
+begin
+  Result:= FSaldo;
+end;
+
+end.

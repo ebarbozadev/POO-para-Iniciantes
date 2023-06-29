@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/06/26 16:24:33.006,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/26 16:26:30.288,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\frmPrincipal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/06/26 16:26:30.288,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\frmPrincipal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/26 16:27:11.412,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/26 16:27:15.612,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/06/26 16:32:39.943,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
-    <Transaction>2023/06/26 16:35:53.550,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Unit1.pas</Transaction>
-    <Transaction>2023/06/26 16:35:59.061,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Unit1.pas</Transaction>
+	<Transactions>
+    <Transaction>2023/06/26 16:24:33.000.006,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 16:26:30.000.288,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\frmPrincipal.pas</Transaction>
+    <Transaction>2023/06/26 16:26:30.000.288,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\frmPrincipal.dfm</Transaction>
+    <Transaction>2023/06/26 16:27:11.000.412,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 16:27:15.000.612,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\pessoa.pas</Transaction>
+    <Transaction>2023/06/26 16:32:39.000.943,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Project1.dproj</Transaction>
+    <Transaction>2023/06/26 16:35:53.000.550,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Unit1.pas</Transaction>
+    <Transaction>2023/06/26 16:35:59.000.061,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Treinos\Herança\Clientes e Funcionarios\cliente.pas</Transaction>
   </Transactions>
 </BorlandProject>

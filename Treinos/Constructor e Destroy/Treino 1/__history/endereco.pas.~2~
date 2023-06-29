@@ -1,0 +1,27 @@
+unit endereco;
+
+interface
+
+type
+  TEndereco = class
+    private
+    FRua: String;
+    FNumero: String;
+    public
+      constructor Create;
+
+      property Rua: String read FRua write FRua;
+      property Numero: String read FNumero write FNumero;
+  end;
+
+implementation
+
+{ TEndereco }
+
+constructor TEndereco.Create;
+begin
+  FRua     := 'Rua não cadastrada';
+  FNumero  := 'Numero não cadastrado';
+end;
+
+end.

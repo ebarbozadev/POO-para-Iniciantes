@@ -1,0 +1,15 @@
+unit cliente;
+
+interface
+
+type
+  TCliente = class
+    private
+      FVIP: String;
+    public
+      property VIP: String read FVIP write FVIP;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/28 09:02:59.000.991,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 09:59:01.759,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 10:00:06.183,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Execução de Todos os Polimorfismos\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 10:00:06.183,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Execução de Todos os Polimorfismos\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/29 10:00:23.963,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 10:00:48.445,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Execução de Todos os Polimorfismos\pessoa_abstract.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 10:03:26.533,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 10:03:50.640,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Execução de Todos os Polimorfismos\contabancaria_overload_override_inherit.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 10:21:11.315,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Projetos\Execução de Todos os Polimorfismos\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

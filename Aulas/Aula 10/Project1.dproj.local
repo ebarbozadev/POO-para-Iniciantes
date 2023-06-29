@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/06/28 09:02:59.000.991,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 10:49:57.000.746,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 10:50:14.000.185,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit1.pas</Transaction>
+    <Transaction>2023/06/29 10:50:14.000.185,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit1.dfm</Transaction>
+    <Transaction>2023/06/29 10:54:16.000.310,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Project1.dproj</Transaction>
+    <Transaction>2023/06/29 10:55:26.517,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 10:55:36.517,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit3.pas</Transaction>
+    <Transaction>2023/06/29 10:55:41.030,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit3.pas</Transaction>
+    <Transaction>2023/06/29 10:55:46.142,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 11:57:03.947,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit2.pas</Transaction>
+    <Transaction>2023/06/29 11:57:40.348,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\endereco.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\POO para Iniciantes\Aulas\Aula 10\Unit2.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,36 @@
+unit cliente;
+
+interface
+
+uses endereco, pessoa, System.SysUtils;
+
+type
+  TCliente = class(TPessoa)
+    private
+    FVIP: String;
+    FEndereco: TEndereco;
+    public
+      constructor Create(Valor: TPessoa);
+      destructor Destroy; override;
+
+      property Endereco           : TEndereco read FEndereco write FEndereco;
+      function VIP(Valor: String) : String;
+  end;
+
+implementation
+
+{ TCliente }
+
+constructor TCliente.Create;
+begin
+  Nome:= Valor.Nome;
+  VIP(Valor):= 'Teste';
+end;
+
+destructor TCliente.Destroy;
+begin
+  FEndereco.Free;
+  inherited;
+end;
+
+end.

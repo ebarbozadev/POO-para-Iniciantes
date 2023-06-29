@@ -1,0 +1,67 @@
+unit contabancaria_overload_override_inherit;
+
+interface
+
+uses
+  pessoa_abstract, System.SysUtils;
+
+type
+  TContaBancaria = class(TPessoa)
+    private
+    FSaldo               : Currency;
+
+    function GetSaldo: Currency;
+    public
+      property Saldo     : Currency read GetSaldo;
+
+      function Sacar    (Valor : Currency) : String; Overload;
+      function Sacar    (Valor : Integer ) : String; Overload;
+      function Depositar(Valor : Currency) : String; Overload;
+      function Depositar(Valor : Integer ) : String; Overload;
+
+      function mostraObjeto                : String; override;
+      function mostraDados                 : String; override;
+
+  end;
+
+implementation
+
+{ TContaBancaria }
+
+function TContaBancaria.Depositar(Valor: Currency): String;
+begin
+  FSaldo:= FSaldo + Valor;
+end;
+
+function TContaBancaria.Depositar(Valor: Integer): String;
+begin
+  FSaldo:= FSaldo + Valor;
+end;
+
+function TContaBancaria.Sacar(Valor: Currency): String;
+begin
+  FSaldo:= FSaldo - Valor;
+end;
+
+function TContaBancaria.Sacar(Valor: Integer): String;
+begin
+  FSaldo:= FSaldo - Valor;
+end;
+
+function TContaBancaria.GetSaldo: Currency;
+begin
+  Result:= FSaldo;
+end;
+
+function TContaBancaria.mostraDados: String;
+begin
+  inherited;
+  Dados:= Dados + mostraObjeto + Saldo.ToString;
+end;
+
+function TContaBancaria.mostraObjeto: String;
+begin
+  Result:= ' objeto contaBancaria ';
+end;
+
+end.

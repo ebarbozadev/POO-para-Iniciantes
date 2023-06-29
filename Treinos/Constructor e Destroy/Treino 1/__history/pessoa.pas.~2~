@@ -1,0 +1,29 @@
+unit pessoa;
+
+interface
+
+uses endereco;
+
+type
+  TPessoa = class
+    private
+    FNome: String;
+    FEndereco: TEndereco;
+    public
+      constructor Create;
+
+      property Nome: String read FNome write FNome;
+      property Endereco: TEndereco read FEndereco write FEndereco;
+  end;
+
+implementation
+
+{ TPessoa }
+
+constructor TPessoa.Create;
+begin
+  Nome      := FNome;
+  Endereco  := TEndereco;
+end;
+
+end.
