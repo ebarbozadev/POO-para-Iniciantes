@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, cliente;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, cliente, pessoa;
 
 type
   TForm1 = class(TForm)
@@ -26,16 +26,26 @@ implementation
 
 procedure TForm1.Button1Click(Sender: TObject);
 var
-  lCliente : TCliente;
+  lCliente, lCliente2, lCliente3: TCliente;
+  lPessoa: TPessoa;
 begin
+  lPessoa  := TPessoa.Create;
+  lPessoa.Nome           := 'Claudemir';
+
   lCliente := TCliente.Create;
+  lCliente2:= TCliente.Create(lPessoa);
+  lCliente.Pessoa.Nome   := 'Emanuel';
+  lCliente.Endereco.Rua  := 'Arapongas';
+  lCliente.VIP           := 'O Cliente é VIP';
+
   try
-    lCliente.Pessoa.Nome   := 'Emanuel';
-    lCliente.Endereco.Rua  := 'Arapongas';
-    lCliente.VIP           := 'O Cliente é VIP';
     Memo1.Lines.Add(lCliente.Pessoa.Nome + ' - ' + lCliente.Endereco.Rua + ' - ' + lCLiente.VIP);
+    Memo1.Lines.Add('-');
+    Memo1.Lines.Add(lCliente2.Nome);
   finally
     lCliente.Free;
+    lCliente2.Free;
+    lPessoa.Free;
   end;
 end;
 

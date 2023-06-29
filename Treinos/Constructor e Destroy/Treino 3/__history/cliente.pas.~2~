@@ -1,0 +1,19 @@
+unit cliente;
+
+interface
+
+uses endereco, pessoa;
+
+type
+  TCliente = class
+    private
+    FEndereco: TEndereco;
+    FPessoa: TPessoa;
+    public
+      property Endereco: TEndereco read FEndereco write FEndereco;
+      property Pessoa: TPessoa read FPessoa write FPessoa;
+  end;
+
+implementation
+
+end.

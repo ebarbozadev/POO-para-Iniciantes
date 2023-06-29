@@ -5,7 +5,7 @@ interface
 type
   TPessoa = class
     private
-    FNome: String;
+      FNome: String;
     public
       property Nome: String read FNome write FNome;
   end;

@@ -5,13 +5,16 @@ interface
 uses endereco, pessoa;
 
 type
-  TCliente = class
+  TCliente = class(TPessoa)
     private
       FVIP: String;
       FEndereco: TEndereco;
       FPessoa: TPessoa;
     public
-      constructor Create;
+      constructor Create;                 overload;
+      constructor Create(Valor: TPessoa); overload;
+      constructor Create(Valor : String); overload;
+
       destructor Destroy; override;
     
       property Endereco: TEndereco read FEndereco write FEndereco;
@@ -28,6 +31,16 @@ begin
   FEndereco  := TEndereco.Create;
   FPessoa    := TPessoa.Create;
   FVIP       := 'Cliente não é VIP';
+end;
+
+constructor TCliente.Create(Valor: TPessoa);
+begin
+  Nome       := Valor.Nome;
+end;
+
+constructor TCliente.Create(Valor: String);
+begin
+  Nome       := Valor;
 end;
 
 destructor TCliente.Destroy;

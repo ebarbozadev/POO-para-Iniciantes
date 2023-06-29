@@ -1,0 +1,40 @@
+unit cliente;
+
+interface
+
+uses endereco, pessoa;
+
+type
+  TCliente = class(TPessoa)
+    private
+    Fvip: String;
+    public
+      constructor Create; overload;
+      constructor Create(Valor : String); overload;
+      constructor Create(Valor : TPessoa); overload;
+      property vip: String read Fvip write Fvip;
+  end;
+
+implementation
+
+{ TCliente }
+
+constructor TCliente.Create;
+begin
+  Nome  := 'Emanuel';
+  FVIP  := 'Não é VIP';
+end;
+
+constructor TCliente.Create(Valor: String);
+begin
+  Nome  := Valor;
+  FVIP  := 'Não é VIP';
+end;
+
+constructor TCliente.Create(Valor: TPessoa);
+begin
+  Nome := Valor.Nome;
+  FVIP := 'Não é VIP';
+end;
+
+end.
